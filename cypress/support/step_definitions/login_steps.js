@@ -5,7 +5,7 @@ Given('I open the login page', () => {
 });
 
 When('I fill in the username and password', () => {
-  cy.get('input[data-qa="login-email"]').type('teste2024@teste.com.br');
+  cy.get('input[data-qa="login-email"]').type('teste202@teste.com.br');
   cy.get('input[data-qa="login-password"]').type('teste');
   cy.get('button[data-qa="login-button"]').click();
 });
