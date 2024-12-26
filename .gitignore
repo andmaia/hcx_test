@@ -10,8 +10,7 @@ cypress/dowloads/
 
 cypress/videos/
 
-# Cucumber
-cypress/e2e/**/*.feature
+
 
 # IDEs
 .idea/
